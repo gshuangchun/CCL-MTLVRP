@@ -1,0 +1,30 @@
+# @package _global_
+
+# Override defaults by taking another config
+defaults:
+  - /experiment/rfbase-50.yaml
+  - _self_
+
+env:
+  generator_params:
+    variant_preset: "all"
+
+model:
+  _target_: routefinder.models.model.RouteFinderBase
+  policy:
+    _target_: routefinder.models.policy.RouteFinderPolicy
+    normalization: "rms"
+    encoder_use_prenorm: True
+    encoder_use_post_layers_norm: True
+    parallel_gated_kwargs:
+      mlp_activation: "silu"
+
+# Logging: we use Wandb in this case
+logger:
+  wandb:
+    tags: [ "rf", "${env.name}" ]
+    group: "${env.generator_params.num_loc}-${env.name}"
+    name: "0424-routefinder-LO-StepDec-dotNoise-tr25-${env.generator_params.num_loc}-main"
+    project: "0210-routefinder"
+
+#ckpt_path: "/common/home/users/s/scgui/Code/2025-LLMCO/0210-routefinder/logs/rf-transformer-50-main-100w/2025-02-11_21-26-00/checkpoints/epoch_013.ckpt"
