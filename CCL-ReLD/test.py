@@ -108,7 +108,6 @@ if __name__ == "__main__":
     # 50
     # parser.add_argument(
     #     "--checkpoint", type=str,
-    #     # default="/common/home/users/s/scgui/Code/2025-LLMCO/0424-routefinder-LO-CaDA-ReLD-dotNoise/logs/0424-routefinder-LO-CaDA-ReLD-dotNoise-P75-50-main/2025-07-28_10-16-45/checkpoints/epoch_298.ckpt",
     #     default="./logs/0424-routefinder-LO-CaDA-ReLD-dotNoise-P75-50-main/2025-04-24_21-08-31/checkpoints/epoch_295.ckpt",
     #     help="Path to the model checkpoint"
     # )

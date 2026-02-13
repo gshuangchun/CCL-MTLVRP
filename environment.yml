@@ -1,4 +1,4 @@
-name: P9RF
+name: CCL
 channels:
   - defaults
 dependencies:
@@ -170,4 +170,4 @@ dependencies:
       - xxhash==3.5.0
       - yarl==1.14.0
       - zipp==3.20.2
-prefix: /common/home/users/s/scgui/.conda/envs/P9RF
+prefix: .conda/envs/CCL

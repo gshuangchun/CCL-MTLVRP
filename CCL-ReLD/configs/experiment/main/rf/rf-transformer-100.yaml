@@ -26,5 +26,3 @@ logger:
     group: "${env.generator_params.num_loc}-${env.name}"
     name: "0424-routefinder-LO-CaDA-ReLD-dotNoise-P75-newO-${env.generator_params.num_loc}-main"
     project: "0210-routefinder"
-
-#ckpt_path: "/common/home/users/s/scgui/Code/2025-LLMCO/0412-routefinder-LO-CaDA-contextSplit-ReLD-dist-NodeDec-attDist-gate1-crossNode/logs/0412-routefinder-LO-CaDA-contextSplit-ReLD-dist-NodeDec-attDist-newgate1-crossNode-h200-P20-newO-100-main/2025-04-17_02-51-27/checkpoints/epoch_133.ckpt"

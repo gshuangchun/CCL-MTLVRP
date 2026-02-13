@@ -26,5 +26,3 @@ logger:
     group: "${env.generator_params.num_loc}-${env.name}"
     name: "1115-routefinder-LO-CaDA-ReLD-dotNoise-P75-${env.generator_params.num_loc}-main"
     project: "0210-routefinder"
-
-#ckpt_path: "/common/home/users/s/scgui/Code/2025-LLMCO/0210-routefinder/logs/rf-transformer-50-main-100w/2025-02-11_21-26-00/checkpoints/epoch_013.ckpt"
