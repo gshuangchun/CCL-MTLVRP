@@ -68,7 +68,7 @@ If this code is useful for your research, please consider citing:
 @inproceedings{
 gui2026chainofcontext,
 title={Chain-of-Context Learning: Dynamic Constraint Understanding for Multi-Task {VRP}s},
-author={Shuangchun Gui and Zhiguang Cao and Suyu Liu and Xuehe Wang},
+author={Shuangchun Gui and Suyu Liu and Xuehe Wang and Zhiguang Cao},
 booktitle={The Fourteenth International Conference on Learning Representations},
 year={2026},
 url={https://openreview.net/forum?id=AhE6aSlz5g}
